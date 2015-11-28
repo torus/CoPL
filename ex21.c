@@ -1,0 +1,8 @@
+Z + S(S(Z)) -*-> S(S(Z)) by MR-Multi {
+    Z + S(S(Z)) -*-> S(S(Z)) by MR-One {
+        Z + S(S(Z)) ---> S(S(Z)) by R-Plus {
+            Z plus S(S(Z)) is S(S(Z)) by P-Zero {}
+        };
+    };
+    S(S(Z)) -*-> S(S(Z)) by MR-Zero {}
+}
